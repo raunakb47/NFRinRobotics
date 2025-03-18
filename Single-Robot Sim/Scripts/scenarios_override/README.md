@@ -1,0 +1,3 @@
+# Scripts for AWS_Hospital Simulation Environment with  Safefy Parameter Disabled
+
+### The shell scripts in this directory are for the 50 different scenarios run in the AWS_Hopital gazebo world (https://github.com/aws-robotics/aws-robomaker-hospital-world/tree/ros2). The scenarios having obstacles has detour scripts to clear each of the encountered obstacles along the path determined in the main script. All the scripts maintain robot's peak speed at 0.46 m/s

@@ -1,0 +1,28 @@
+ros2 action send_goal /rotate_angle irobot_create_msgs/action/RotateAngle "{angle: -1.6,max_rotation_speed: 1.9}"
+ros2 action send_goal /drive_distance irobot_create_msgs/action/DriveDistance "{distance: 0.15,max_translation_speed: 0.46}"
+
+ros2 action send_goal /rotate_angle irobot_create_msgs/action/RotateAngle "{angle: 1.55,max_rotation_speed: 1.9}"
+ros2 action send_goal /drive_distance irobot_create_msgs/action/DriveDistance "{distance: 1.5,max_translation_speed: 0.46}"
+ros2 action send_goal /rotate_angle irobot_create_msgs/action/RotateAngle "{angle: 1.6,max_rotation_speed: 1.9}"
+ros2 action send_goal /drive_distance irobot_create_msgs/action/DriveDistance "{distance: 2.5,max_translation_speed: 0.46}"
+ros2 action send_goal /rotate_angle irobot_create_msgs/action/RotateAngle "{angle: -1.6,max_rotation_speed: 1.9}"
+ros2 action send_goal /drive_distance irobot_create_msgs/action/DriveDistance "{distance: 2,max_translation_speed: 0.46}"
+ros2 action send_goal /rotate_angle irobot_create_msgs/action/RotateAngle "{angle: 1.6,max_rotation_speed: 1.9}"
+ros2 action send_goal /drive_distance irobot_create_msgs/action/DriveDistance "{distance: 1,max_translation_speed: 0.46}"
+ros2 action send_goal /rotate_angle irobot_create_msgs/action/RotateAngle "{angle: -1.6,max_rotation_speed: 1.9}"
+ros2 action send_goal /drive_distance irobot_create_msgs/action/DriveDistance "{distance: 24.5,max_translation_speed: 0.46}"
+ros2 action send_goal /rotate_angle irobot_create_msgs/action/RotateAngle "{angle: 1.6,max_rotation_speed: 1.9}"
+ros2 action send_goal /drive_distance irobot_create_msgs/action/DriveDistance "{distance: 3.5,max_translation_speed: 0.46}"
+ros2 action send_goal /rotate_angle irobot_create_msgs/action/RotateAngle "{angle: 1.6,max_rotation_speed: 1.9}"
+ros2 action send_goal /drive_distance irobot_create_msgs/action/DriveDistance "{distance: 0.4,max_translation_speed: 0.46}"
+
+sleep 2
+
+ros2 action send_goal /rotate_angle irobot_create_msgs/action/RotateAngle "{angle: 1.5,max_rotation_speed: 1.9}"
+ros2 action send_goal /drive_distance irobot_create_msgs/action/DriveDistance "{distance: 3.4,max_translation_speed: 0.46}"
+ros2 action send_goal /rotate_angle irobot_create_msgs/action/RotateAngle "{angle: -1.5,max_rotation_speed: 1.9}"
+ros2 action send_goal /drive_distance irobot_create_msgs/action/DriveDistance "{distance: 18,max_translation_speed: 0.46}"
+ros2 action send_goal /rotate_angle irobot_create_msgs/action/RotateAngle "{angle: -1.6,max_rotation_speed: 1.9}"
+ros2 action send_goal /drive_distance irobot_create_msgs/action/DriveDistance "{distance: 4.9,max_translation_speed: 0.46}"
+ros2 action send_goal /rotate_angle irobot_create_msgs/action/RotateAngle "{angle: -1.6,max_rotation_speed: 1.9}"
+ros2 action send_goal /drive_distance irobot_create_msgs/action/DriveDistance "{distance: 6.5,max_translation_speed: 0.46}"

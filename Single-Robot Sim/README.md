@@ -1,4 +1,4 @@
-# Steps to reproduce the experiments
+# Steps to Reproduce the Experiments
 
 #### 1. Install the iRobot® Create® 3 Simulator along with all the required prerequisite ROS 2 packages. Detailed instructions for doing so can be found in the readme of the simulator’s Github repository: https://github.com/iRobotEducation/create3_sim
 
@@ -15,3 +15,7 @@
 - /BATTERY_STATE
 
 #### 7.  Along with the aforementioned ROS topics, the command outputs of the scripts and the simulator itself should be recorded for analysis. These outputs contain information such as the total response time of the tasks.
+
+## About Included Scripts
+
+The Scripts prefixed with "s" contain the path planning, while the prefix "d" indicates path planning for a detour on obstacle encounters. 
